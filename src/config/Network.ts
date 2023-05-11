@@ -1,0 +1,4 @@
+export const MAINNET_CONTRACT_ADDRESS =
+  "fetch1cj7pfh3aqut6p2ursuqsgceadd2p09cqjklur485sce85tvw3zusy0fpy8";
+export const TESTNET_CONTRACT_ADDRESS =
+  "fetch15hq5u4susv7d064llmupeyevx6hmskkc3p8zvt8rwn0lj02yt72s88skrf";

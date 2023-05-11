@@ -1,0 +1,46 @@
+{
+  "name": "@azoyalabs/fns-client",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "author": {
+    "email": "maxime@azoyalabs.com",
+    "name": "Maxime"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azoyalabs/fns-client"
+  },
+  "main": "./dist/fns_client.umd.cjs",
+  "module": "./dist/fns_client.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/fns_client.js",
+      "require": "./dist/fns_client.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@cosmjs/cosmwasm-stargate": "^0.30.1",
+    "@types/node": "^20.1.2",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vite-plugin-dts": "^2.3.0",
+    "vitest": "^0.31.0"
+  },
+  "dependencies": {
+    "@cosmjs/amino": "^0.30.1"
+  }
+}
