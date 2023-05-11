@@ -29,6 +29,10 @@
       "require": "./dist/fns_client.umd.cjs"
     }
   },
+  "bugs": {
+    "url": "https://github.com/Azoyalabs/fns-client/issues"
+  },
+
   "files": [
     "dist"
   ],
