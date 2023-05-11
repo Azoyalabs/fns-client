@@ -9,12 +9,12 @@ import {
 import {
   MAINNET_CONTRACT_ADDRESS,
   TESTNET_CONTRACT_ADDRESS,
-} from "./config/Network";
+} from "./config";
 
 /**
  * Creates a Read-Only client to query the Fetch Name System smart contract
  * @param {CosmWasmClient} client
- * @param {"mainnet" | "testnet"} network 
+ * @param {"mainnet" | "testnet"} network
  * @returns {FetchNameSystemQueryClient} fetchNameSystemQueryClient
  */
 export function createQueryClient(
@@ -30,7 +30,7 @@ export function createQueryClient(
 /**
  * Creates a client to interact with the Fetch Name System smart contract. This client is able to create and send messages.
  * @param {CosmWasmClient} client
- * @param {"mainnet" | "testnet"} network 
+ * @param {"mainnet" | "testnet"} network
  * @returns {FetchNameSystemQueryClient} fetchNameSystemQueryClient
  */
 export function createSigningClient(

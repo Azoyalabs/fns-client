@@ -1,6 +1,6 @@
 {
   "name": "@azoyalabs/fns-client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -16,7 +16,7 @@
     "access": "public"
   },
   "main": "./dist/index.umd.cjs",
-  "module": "./dist/fns_client.js",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
