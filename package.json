@@ -1,6 +1,5 @@
 {
   "name": "@azoyalabs/fns-client",
-  "private": true,
   "version": "0.0.1",
   "type": "module",
   "scripts": {
@@ -32,7 +31,6 @@
   "bugs": {
     "url": "https://github.com/Azoyalabs/fns-client/issues"
   },
-
   "files": [
     "dist"
   ],
