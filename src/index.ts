@@ -6,10 +6,7 @@ import {
   FetchNameSystemClient,
   FetchNameSystemQueryClient,
 } from "./FetchNameSystemContract";
-import {
-  MAINNET_CONTRACT_ADDRESS,
-  TESTNET_CONTRACT_ADDRESS,
-} from "./config";
+import { MAINNET_CONTRACT_ADDRESS, TESTNET_CONTRACT_ADDRESS } from "./config";
 
 /**
  * Creates a Read-Only client to query the Fetch Name System smart contract
@@ -43,3 +40,5 @@ export function createSigningClient(
 
   return new FetchNameSystemClient(client, sender, contractAddress);
 }
+
+export * from "./utils";
